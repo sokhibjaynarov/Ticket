@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Ticket\\Ticket.Api\\Ticket.Api.csproj": {}
+    "D:\\Projects\\Ticket\\Ticket.Api.Infrastructure.Build\\Ticket.Api.Infrastructure.Build.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Ticket\\Ticket.Api\\Ticket.Api.csproj": {
+    "D:\\Projects\\Ticket\\Ticket.Api.Infrastructure.Build\\Ticket.Api.Infrastructure.Build.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Ticket\\Ticket.Api\\Ticket.Api.csproj",
-        "projectName": "Ticket.Api",
-        "projectPath": "D:\\Projects\\Ticket\\Ticket.Api\\Ticket.Api.csproj",
+        "projectUniqueName": "D:\\Projects\\Ticket\\Ticket.Api.Infrastructure.Build\\Ticket.Api.Infrastructure.Build.csproj",
+        "projectName": "Ticket.Api.Infrastructure.Build",
+        "projectPath": "D:\\Projects\\Ticket\\Ticket.Api.Infrastructure.Build\\Ticket.Api.Infrastructure.Build.csproj",
         "packagesPath": "C:\\Users\\sokhi\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Ticket\\Ticket.Api\\obj\\",
+        "outputPath": "D:\\Projects\\Ticket\\Ticket.Api.Infrastructure.Build\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sokhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,16 +37,12 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "RESTFulSense": {
+            "ADotNet": {
               "target": "Package",
-              "version": "[2.15.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
@@ -61,9 +57,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
